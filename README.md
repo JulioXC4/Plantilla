@@ -22,3 +22,25 @@ En la carpeta `servidor` se encuentra la API REST, desarrollada con las siguient
 - **TypeScript**: Utilizado para añadir tipado estático al código de Node.js.
 
 El servidor está preparado para conectarse a una base de datos MongoDB utilizando **Mongoose**. La sección de código para la conexión a la base de datos está comentada, y puede ser habilitada si se desea utilizar MongoDB.
+
+## Instrucciones para configurar el proyecto
+
+### Cliente Web
+
+1. Descarga la carpeta que contiene las 2 carpetas necesarias.
+2. Abre una terminal y navega hasta la carpeta del cliente web.
+3. Ejecuta `npm i` para instalar las dependencias.
+4. Crea un archivo `.env` dentro de la carpeta del cliente web.
+5. Utiliza las variables de entorno del archivo `.env.example` como guía para configurar tu `.env`.
+6. Para el desarrollo, ejecuta `npm run dev`.
+7. Para el build, ejecuta `npm run build`.
+8. Para correr el build, ejecuta `npm run start`.
+
+### Servidor
+
+1. Navega a la carpeta del servidor desde una terminal.
+2. Ejecuta `npm i` para instalar las dependencias.
+3. Crea un archivo `.env` dentro de la carpeta del servidor.
+4. Utiliza las variables de entorno del archivo `.env.example` como guía para configurar tu `.env`.
+5. Para utilizar nodemon en el desarrollo, ejecuta `npm run dev`.
+6. Para correr el TypeScript, ejecuta `npm run start`.
